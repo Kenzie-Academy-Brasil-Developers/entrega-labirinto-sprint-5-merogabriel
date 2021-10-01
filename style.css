@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #fff4e6, #4b3832);
+}
+
+.line div {
+    width: 50px;
+    height: 50px;
+}
+
+.line {
+    display: flex;
+    margin-left: 15vw;
+}
+
+.wall {
+    background-color: #4b3832;
+}
+
+.player {
+    position: absolute;
+    background-color: #854442;
+}
+
+.empty {
+    background-color: #fff4e6;
+}
+
+.finishLine{
+    background-color: #be9b7b;
+}
+
+h1 {
+    font-family: 'Londrina Outline', cursive;
+    color: greenyellow;
+    position: absolute;
+    font-size: 80px;
+    left: 61vw;
+}
